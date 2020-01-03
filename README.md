@@ -8,14 +8,17 @@
 从[某网站](https://bing.ioliu.cn/)网站下载Bing壁纸。
 
 # 依赖 #
-    #scrapy 
+    # scrapy 
 	$ sudo pip3 install scrapy
+
+# 图片保存地址 #
+   vi 
 
 # 使用 #
 	退回到项目主目录
-	$ python scrapy wallpaper
+	$ scrapy crawl wallpaper
 
-注意:请使用python3，python2将于2020.01.01正式退役。
+注意:请使用python3，python2已于2020.01.01正式退役。
 
 # 爬取图片小览 #
 
