@@ -12,10 +12,10 @@
 	$ sudo pip3 install scrapy
 
 # 图片保存地址 #
-   vi 
+   到wallpaper/settings.py中修改第12行的路径为自己电脑上的路径 
 
 # 使用 #
-	退回到项目主目录
+	退回到项目主目录wallpaperspider/下
 	$ scrapy crawl wallpaper
 
 注意:请使用python3，python2已于2020.01.01正式退役。
