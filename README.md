@@ -3,7 +3,7 @@
 - Linux
 
 ### 描述 
-从[某网站](https://bing.ioliu.cn/)网站下载Bing壁纸。
+从[某网站](https://bing.ioliu.cn/)下载Bing壁纸。
 
 ### 依赖 
     # scrapy 和 python3 

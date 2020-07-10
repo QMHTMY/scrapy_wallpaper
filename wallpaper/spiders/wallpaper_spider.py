@@ -23,7 +23,7 @@ class WallpaperSpiderSpider(scrapy.Spider):
 
 
         self.i += 1
-        if self.i > 116: #116为https://bing.ioliu.cn页面最底部页数(1/xxx)中的xxx值，下载到最后一页就停止。
+        if self.i > 130: #130为https://bing.ioliu.cn页面最底部页数(1/xxx)中的xxx值，下载到最后一页就停止。
             sys.exit(0)
 
         #step 2: get next page url
